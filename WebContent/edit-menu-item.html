@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Admin Menu List</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <div>
+        <header class="head">
+            <span id="main">truYum</span>
+            <span><img src="images/truyum-logo-dark.png" class="logo" alt="cant display " /></span>
+            <nav class="text">
+                <a href="menu-item-list-admin.html" style="text-decoration:none;color:white;">Menu</a>
+            </nav>
+            <nav class="text2">
+                <a href="home.html" style="text-decoration:none;color:white;">Home</a>
+            </nav>
+        </header>
+    </div>
+</head>
+<body>
+   
+    <center>
+        <form name="myform" action="edit-menu-item.html" onsubmit="return formfill()">
+            <div id="editmenu">  <h1> Edit Menu Item</h1></div>
+            <table id="th1">
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" height="100" name="title" value="" id="title" pattern="[A-Za-z]+" minlength="2" maxlength="65"
+                        required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Price(Rs.)</th>
+                    <th>Active</th>
+                    <th>Date Of Launch</th>
+                    <th>Category</th>
+                </tr>
+                <tr>
+                    <td width=20%>
+                        <input type="number" name="price" id="price" pattern="[0-9]{4}" required>
+                    </td>
+                    <td width=15%>
+                        <input type="radio" name="instock" value="yes"  required>Yes
+                        <input type="radio" name="instock" value="no"    required>No
+                    </td>
+                    <td><input type="date" name="date" value="" id="dateOfLaunch" required></td>
+                    <td width=40%>
+                        <select name="category" id="category" >
+                            <option>Select..</option>
+                            <option value="Starters">Starters</option>
+                            <option value="Main Course">Main Course</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Drinks">Drinks</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><input type="checkbox" name="freedelivery" value="free delivery">Free Delivery</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit"  class="button" value="save" onclick="editformvalidation()"> 
+                       
+                        
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+        
+    
+    </body>
+    <footer>
+        <div class="foot1">
+            <h5 id="hb">Copyright &copy; 2020 </h5>
+        </div>
+    </footer>
+    </html>

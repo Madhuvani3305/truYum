@@ -1,0 +1,267 @@
+html{
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("images/bg1.jpg");
+  }
+  /*.head {
+    background-color: #00008b;
+    padding: 10px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    color: #ffffff;
+  }*/
+  header{
+    width:100%;
+  height:12%; 
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: #00008b;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  h2 {
+    color: #000000;
+  }
+  #ha{
+      text-align: left;
+  }
+  #hb{
+      text-align: left;
+      color: #000000;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-left: 40px;
+   
+  }
+  
+  #cartempty{
+      font-family: Verdana;
+      text-align: left;
+  }
+  #cartempty{
+      font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+      text-align: left;
+  }
+  #edit{
+      font-family: Verdana;
+      text-align: left;
+      padding-left:20%;
+  }
+  #edit1{
+       font-family: Verdana;
+       text-align: left;
+       padding-left: 20%;
+  }
+
+  .foot1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d3d3d3;
+    color:#000000;
+    text-align: center;
+    height: 8%;
+    
+ }
+  .notif{
+      color: #4CAF50;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+  #editmenu {
+    text-align: left;
+    padding-right: 250px;
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+  
+  #main {
+    display: inline;
+    padding: 20px;
+    border-bottom: 20px;
+    text-align: center;
+    font-family: Verdana;
+    color: #fffacd;
+  
+  }
+  .logo{
+    width: 50px;
+    height: 50px;
+    padding: 10px; 
+    background-color: #00008b;
+  }
+  
+  .text {
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    border-style: none;
+    padding-right: 25px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .text1 {
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    border-style: none;
+    color: #ffffff;
+    padding-right: 40px;
+    font-size: 20px;
+  }
+  .text2{
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+    border-style: none;
+    padding-right: 25px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  
+  #th1 {
+    padding-right:100px;
+    height: 40px;
+    text-align: center;
+    background-color:darkgrey;
+    width:150px;
+  }
+  tr {
+    padding-right:100px;
+    height: 40px;
+    text-align: center;
+    color:#000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serifl;
+  }
+  
+  #th1, th, td {
+    text-align: left;
+    padding: 17px;
+    font-size: 16px;
+  }
+  
+  #editclass {
+    height: 361px;
+  }
+  
+  #edit {
+    text-align: left;
+    padding-left: 500px;
+    padding-top: 150px;
+    padding-bottom: 35px;
+  }
+  
+  #edit1 {
+    text-align: left;
+    padding-left: 400px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    color: #006400;
+    font-size: 24px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 13px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+  #empty {
+    height: 361px;
+  }
+  
+  #cartempty {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #cartempty1 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 350px;
+    padding-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .cust1 {
+    height: 381px;
+  }
+  
+  caption {
+    padding-top: 120px;
+    text-align: center;
+  }
+  
+  #notification {
+    text-align: left;
+    padding-left: 550px;
+    padding-top: 120px;
+  }
+  
+  #notification1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 150px;
+    color: #006400;
+  }
+  
+  #cart {
+    padding: 100px 120px 20px 0px;
+    
+  }
+  
+  #cartnot {
+    height: 160px;
+  }
+  
+  #notify {
+    text-align: left;
+    padding-left: 600px;
+    padding-top: 120px;
+  }
+  
+  #notify1 {
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 50px;
+    color: #ff0000;
+  }
+  
+  
+  
+  #td1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  #td1 td, #td1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #td1 tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #td1 tr:hover {background-color: #ddd;}
+  
+  #td1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+ 
+ 
